@@ -1,0 +1,19 @@
+<Scene>
+
+  <KDTree>
+    <kd-tree filename="scene\toasters.kdt"/>
+  </KDTree>
+
+  <Light>
+    <Position pos="0 5 -0 1"/>
+  </Light>
+
+  <Light>
+    <Position pos="5 5 -0 1"/>
+  </Light>
+
+  <Entity FileName="media\toasters.obj">
+    <WorldMatrix matrix="0.01 0 0 0 0 0.01 0 0 0 0 0.01 0 0 0 0 1"/>
+  </Entity>
+
+</Scene>

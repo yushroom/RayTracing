@@ -1,0 +1,15 @@
+<Scene>
+
+  <KDTree>
+    <kd-tree filename="scene\cornell.kdt"/>
+  </KDTree>
+
+  <Light>
+    <Position pos="0 1.5 5 1"/>
+  </Light>
+
+  <Entity FileName="media\cornell.obj">
+    <WorldMatrix matrix="0.1 0 0 0 0 0.1 0 0 0 0 0.1 0 0 -2 0 1"/>
+  </Entity>
+
+</Scene>

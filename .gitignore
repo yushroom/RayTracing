@@ -1,0 +1,14 @@
+Release/
+CUDA_RayTracing/Release/
+Debug/
+CUDA_RayTracing/Debug/
+*.exe
+*.pdb
+*~
+
+# Visual studio files
+*.sdf
+*.opensdf
+*.ipch
+*.suo
+*.user

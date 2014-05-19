@@ -1,0 +1,15 @@
+<Scene>
+
+  <KDTree>
+    <kd-tree filename="scene\chess.kdt"/>
+  </KDTree>
+
+  <Light>
+    <Position pos="0 5 -0 1.5"/>
+  </Light>
+
+  <Entity FileName="media\chess.obj">
+    <WorldMatrix matrix="0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 1"/>
+  </Entity>
+
+</Scene>

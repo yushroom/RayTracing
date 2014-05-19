@@ -1,0 +1,15 @@
+<Scene>
+
+  <KDTree>
+    <kd-tree filename="scene\dragon_on_table.kdt"/>
+  </KDTree>
+
+  <Light>
+    <Position pos="0 5 -2 1"/>
+  </Light>
+
+  <Entity FileName="media\dragon_on_table.obj">
+    <WorldMatrix matrix="10 0 0 0 0 10 0 0 0 0 10 0 0 0 0 1"/>
+  </Entity>
+  
+</Scene>
